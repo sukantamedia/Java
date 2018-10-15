@@ -9,7 +9,7 @@ $(function () {
         $el.next().children().each(function(){
             $(this).animate({top: '-' + vertical + 'px', left: horizontal + 'px'}, openspeed);
             vertical = vertical + 55;
-            horizontal = (horizontal+.75);
+            horizontal = (horizontal+.55);
         });
         $el.next().animate({top: '-50px', left: '10px'}, openspeed).addClass('openStack')
            .find('li a>img').animate({width: '50px', marginLeft: '9px'}, openspeed);
